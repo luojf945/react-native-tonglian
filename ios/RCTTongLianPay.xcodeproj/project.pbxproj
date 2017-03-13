@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BA6DA41E73CDCA0037BF7D /* libAPayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BA6DA21E73CDCA0037BF7D /* libAPayLib.a */; };
+		84BA6DA51E73CDCA0037BF7D /* TrustDefenderMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BA6DA31E73CDCA0037BF7D /* TrustDefenderMobile.framework */; };
+		84BA6DA81E73CE440037BF7D /* RCTTongLianPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA6DA71E73CE440037BF7D /* RCTTongLianPay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E632A2471D757FCD001BCAE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		848459861DE3462600625C57 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		848459881DE3463E00625C57 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8484598A1DE3465800625C57 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8484598C1DE3466300625C57 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		84BA6D961E73CDCA0037BF7D /* APayRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = APayRes.bundle; sourceTree = "<group>"; };
+		84BA6D971E73CDCA0037BF7D /* APMPPassGuardCtrlBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = APMPPassGuardCtrlBundle.bundle; sourceTree = "<group>"; };
+		84BA6D9A1E73CDCA0037BF7D /* APay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APay.h; sourceTree = "<group>"; };
+		84BA6D9B1E73CDCA0037BF7D /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		84BA6D9C1E73CDCA0037BF7D /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		84BA6D9D1E73CDCA0037BF7D /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		84BA6D9E1E73CDCA0037BF7D /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		84BA6D9F1E73CDCA0037BF7D /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		84BA6DA01E73CDCA0037BF7D /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		84BA6DA11E73CDCA0037BF7D /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		84BA6DA21E73CDCA0037BF7D /* libAPayLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPayLib.a; sourceTree = "<group>"; };
+		84BA6DA31E73CDCA0037BF7D /* TrustDefenderMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TrustDefenderMobile.framework; sourceTree = "<group>"; };
+		84BA6DA61E73CE440037BF7D /* RCTTongLianPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTTongLianPay.h; path = RCTTongLianPay/RCTTongLianPay.h; sourceTree = "<group>"; };
+		84BA6DA71E73CE440037BF7D /* RCTTongLianPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTTongLianPay.m; path = RCTTongLianPay/RCTTongLianPay.m; sourceTree = "<group>"; };
+		E632A2491D757FCD001BCAE0 /* libRCTTongLianPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTongLianPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E632A2461D757FCD001BCAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA6DA51E73CDCA0037BF7D /* TrustDefenderMobile.framework in Frameworks */,
+				84BA6DA41E73CDCA0037BF7D /* libAPayLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848459851DE3462600625C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8484598C1DE3466300625C57 /* libicucore.tbd */,
+				8484598A1DE3465800625C57 /* libz.tbd */,
+				848459881DE3463E00625C57 /* libstdc++.tbd */,
+				848459861DE3462600625C57 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84BA6D951E73CDCA0037BF7D /* TONGLIAN_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				84BA6D961E73CDCA0037BF7D /* APayRes.bundle */,
+				84BA6D971E73CDCA0037BF7D /* APMPPassGuardCtrlBundle.bundle */,
+				84BA6D981E73CDCA0037BF7D /* include */,
+				84BA6DA21E73CDCA0037BF7D /* libAPayLib.a */,
+				84BA6DA31E73CDCA0037BF7D /* TrustDefenderMobile.framework */,
+			);
+			name = TONGLIAN_SDK;
+			path = RCTTongLianPay/TONGLIAN_SDK;
+			sourceTree = "<group>";
+		};
+		84BA6D981E73CDCA0037BF7D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				84BA6D991E73CDCA0037BF7D /* APayLib */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		84BA6D991E73CDCA0037BF7D /* APayLib */ = {
+			isa = PBXGroup;
+			children = (
+				84BA6D9A1E73CDCA0037BF7D /* APay.h */,
+				84BA6D9B1E73CDCA0037BF7D /* ChineseToPinyinResource.h */,
+				84BA6D9C1E73CDCA0037BF7D /* HanyuPinyinOutputFormat.h */,
+				84BA6D9D1E73CDCA0037BF7D /* NSString+PinYin4Cocoa.h */,
+				84BA6D9E1E73CDCA0037BF7D /* pinyin.h */,
+				84BA6D9F1E73CDCA0037BF7D /* PinYin4Objc.h */,
+				84BA6DA01E73CDCA0037BF7D /* PinyinFormatter.h */,
+				84BA6DA11E73CDCA0037BF7D /* PinyinHelper.h */,
+			);
+			path = APayLib;
+			sourceTree = "<group>";
+		};
+		E632A2401D757FCD001BCAE0 = {
+			isa = PBXGroup;
+			children = (
+				84BA6DA61E73CE440037BF7D /* RCTTongLianPay.h */,
+				84BA6DA71E73CE440037BF7D /* RCTTongLianPay.m */,
+				84BA6D951E73CDCA0037BF7D /* TONGLIAN_SDK */,
+				E632A24A1D757FCD001BCAE0 /* Products */,
+				848459851DE3462600625C57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E632A24A1D757FCD001BCAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E632A2491D757FCD001BCAE0 /* libRCTTongLianPay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E632A2481D757FCD001BCAE0 /* RCTTongLianPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E632A2521D757FCD001BCAE0 /* Build configuration list for PBXNativeTarget "RCTTongLianPay" */;
+			buildPhases = (
+				E632A2451D757FCD001BCAE0 /* Sources */,
+				E632A2461D757FCD001BCAE0 /* Frameworks */,
+				E632A2471D757FCD001BCAE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTTongLianPay;
+			productName = RCTQiYu;
+			productReference = E632A2491D757FCD001BCAE0 /* libRCTTongLianPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E632A2411D757FCD001BCAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Netease;
+				TargetAttributes = {
+					E632A2481D757FCD001BCAE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E632A2441D757FCD001BCAE0 /* Build configuration list for PBXProject "RCTTongLianPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E632A2401D757FCD001BCAE0;
+			productRefGroup = E632A24A1D757FCD001BCAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E632A2481D757FCD001BCAE0 /* RCTTongLianPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E632A2451D757FCD001BCAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA6DA81E73CE440037BF7D /* RCTTongLianPay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E632A2501D757FCD001BCAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E632A2511D757FCD001BCAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E632A2531D757FCD001BCAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTMobSMS/SMS_SDK",
+					"$(PROJECT_DIR)/RCTMobSMS/TONGLIAN_SDK",
+					"$(PROJECT_DIR)/RCTTongLianPay/TONGLIAN_SDK",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTMobSMS/TONGLIAN_SDK",
+					"$(PROJECT_DIR)/RCTTongLianPay/TONGLIAN_SDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E632A2541D757FCD001BCAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTMobSMS/SMS_SDK",
+					"$(PROJECT_DIR)/RCTMobSMS/TONGLIAN_SDK",
+					"$(PROJECT_DIR)/RCTTongLianPay/TONGLIAN_SDK",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTMobSMS/TONGLIAN_SDK",
+					"$(PROJECT_DIR)/RCTTongLianPay/TONGLIAN_SDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E632A2441D757FCD001BCAE0 /* Build configuration list for PBXProject "RCTTongLianPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E632A2501D757FCD001BCAE0 /* Debug */,
+				E632A2511D757FCD001BCAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E632A2521D757FCD001BCAE0 /* Build configuration list for PBXNativeTarget "RCTTongLianPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E632A2531D757FCD001BCAE0 /* Debug */,
+				E632A2541D757FCD001BCAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E632A2411D757FCD001BCAE0 /* Project object */;
+}

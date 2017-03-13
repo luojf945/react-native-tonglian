@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-tonglian",
+        "scope": null,
+        "escapedName": "react-native-tonglian",
+        "name": "react-native-tonglian",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/admin/Work/kpkj/Doors/app/Doors"
+    ]
+  ],
+  "_from": "react-native-tonglian@latest",
+  "_id": "react-native-tonglian@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-tonglian",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-tonglian-1.0.0.tgz_1489375043233_0.6334576890803874"
+  },
+  "_npmUser": {
+    "name": "luojf945",
+    "email": "luojf945@qq.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-tonglian",
+    "scope": null,
+    "escapedName": "react-native-tonglian",
+    "name": "react-native-tonglian",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-tonglian/-/react-native-tonglian-1.0.0.tgz",
+  "_shasum": "e00f26d1eb2330430a27098a0ba2ea9a240dcadf",
+  "_shrinkwrap": null,
+  "_spec": "react-native-tonglian",
+  "_where": "/Users/admin/Work/kpkj/Doors/app/Doors",
+  "author": {
+    "name": "luojf945"
+  },
+  "bugs": {
+    "url": "https://github.com/luojf945/react-native-tonglian/issues"
+  },
+  "dependencies": {},
+  "description": "通联支付",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e00f26d1eb2330430a27098a0ba2ea9a240dcadf",
+    "tarball": "https://registry.npmjs.org/react-native-tonglian/-/react-native-tonglian-1.0.0.tgz"
+  },
+  "homepage": "https://github.com/luojf945/react-native-tonglian#readme",
+  "keywords": [
+    "tonglian",
+    "通联",
+    "支付",
+    "tonglian",
+    "pay"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "luojf945",
+      "email": "luojf945@qq.com"
+    }
+  ],
+  "name": "react-native-tonglian",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luojf945/react-native-tonglian.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
